@@ -44,7 +44,7 @@
     </repository>
   </repositories>
   
-<repositories>
+
   <repository>
   <build>
    <plugins>
@@ -58,7 +58,6 @@
         </configuration>
       </plugin>
     </plugins>
-  </repositories>
   </repository>
     
     <pluginManagement>
