@@ -45,6 +45,8 @@
   </repositories>
 
   <build>
+    <repositories>
+    <repository>
    <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -56,7 +58,9 @@
         </configuration>
       </plugin>
     </plugins>
-
+</repositories>
+    </repository>
+    
     <pluginManagement>
       <plugins>
         <plugin>
