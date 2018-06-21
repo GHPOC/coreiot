@@ -43,10 +43,10 @@
       </snapshots>
     </repository>
   </repositories>
-
+  
+<repositories>
+  <repository>
   <build>
-    <repositories>
-    <repository>
    <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -58,8 +58,8 @@
         </configuration>
       </plugin>
     </plugins>
-</repositories>
-    </repository>
+  </repositories>
+  </repository>
     
     <pluginManagement>
       <plugins>
